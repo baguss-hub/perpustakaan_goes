@@ -7,7 +7,7 @@ $db_pass = '';
 $db_name = 'perpustakaan';
 
 //mematikan error reporting untuk mysqli
-//mysqli_report(MYSQLI_REPORT_OFF);
+// mysqli_report(MYSQLI_REPORT_OFF);
 
 //membuat koneksi
 $mysqli = new mysqli($db_host, $db_user, $db_pass, $db_name);
